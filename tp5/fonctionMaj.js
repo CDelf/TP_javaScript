@@ -2,7 +2,7 @@
 • Cette fonction retourne la chaine de caractères passée en paramètre avec la première
 lettre en majuscule. */
 
-function getPhrCapitalized(text) {
+function getStrCapitalized(text) {
     if (typeof text !== 'string') {
         return console.log("Erreur: L'entrée n'est pas un texte.");
     }
@@ -11,7 +11,6 @@ function getPhrCapitalized(text) {
 }
 
 // test
-console.log(getPhrCapitalized("bonjour tout le monde"));
-console.log(getPhrCapitalized(3));
-console.log(getPhrCapitalized("MOTS EN MAJUSCULES"));
-
+console.log(getStrCapitalized("bonjour tout le monde"));
+console.log(getStrCapitalized(3));
+console.log(getStrCapitalized("MOTS EN MAJUSCULES"));
