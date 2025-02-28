@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrôle Formulaire</title>
+    <script src="controleForm.js"></script>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <form onsubmit="return checkForm(event)">
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" name="nom" /><br><br>
+        <label for="prenom">Prénom:</label><br>
+        <input type="text" id="prenom" name="prenom" /><br><br>
+        <label for="dateNaiss">Date de naissance:</label><br>
+        <input type="date" id="dateNaiss" name="dateNaiss"><br><br>
+        <button>Envoyer</button><br><br>
+    </form>
+    <div id="resultat"></div>
+</body>
+</html>
