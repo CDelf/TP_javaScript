@@ -1,0 +1,46 @@
+{
+  "utilisateurs": [
+    {
+      "id": "1",
+      "idCreateur": "machin",
+      "nom": "quelquun",
+      "prenom": "youpi",
+      "genre": "m",
+      "dateNaissance": "1998-03-01",
+      "lieuNaissance": "Las Vegas",
+      "departementNaissance": "94",
+      "numeroRue": "2",
+      "libelleRue": "rue des Cerisiers",
+      "codePostal": "123453",
+      "ville": "dreamland"
+    },
+    {
+      "id": "2",
+      "idCreateur": "truc",
+      "nom": "personne",
+      "prenom": "lol",
+      "genre": "f",
+      "dateNaissance": "2000-06-17",
+      "lieuNaissance": "Paris",
+      "departementNaissance": "75",
+      "numeroRue": "10",
+      "libelleRue": "rue des Lilas",
+      "codePostal": "45678",
+      "ville": "lalaland"
+    },
+    {
+      "id": "8859",
+      "identiteCreateur": "EssaiCD",
+      "nom": "cestmoi",
+      "prenom": "moimoimoi",
+      "genre": "f",
+      "dateNaissance": "2025-03-25",
+      "lieuNaissance": "jhkjhk",
+      "departementNaissance": "12",
+      "numeroRue": "3",
+      "libelleRue": "hjhkj",
+      "codePostal": "78904",
+      "ville": "jkhkj"
+    }
+  ]
+}
